@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e2e2e2;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    padding-right: 60px;
+    border-radius: 5px;
+}
+.container input[type="text"],
+.container input[type="email"],
+.container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+

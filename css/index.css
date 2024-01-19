@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/casino-cyprus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head {
+    font-family: 'Bagel Fat One', system-ui;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 97vh;
+    padding-left: 45%;
+    justify-content: space-between;
+    /* color: white; */
+}
+
+.head .title{
+    padding-top: 40px;
+    font-size: 50px;
+    color: rgb(177, 247, 248);
+    text-shadow: 0 0 15px rgb(0, 251, 255) ;
+    transition: 0.5s;
+} 
+
+.head .title:hover{
+    color: rgb(81, 252, 254);
+    text-shadow: 0 0 50px rgb(0, 251, 255);
+    font-size: 100px;
+}
+
+.body .titulo-body{
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 251, 255) ;
+    transition: 0.5s;
+}
+
+.body .titulo-body:hover{
+    text-shadow: 0 0 50px rgb(0, 251, 255) ;
+}
+
+.body .subtitulo{
+    font-size: 180%;
+    color:rgb(255, 229, 88);
+    text-shadow: 0 0 10px rgb(255, 216, 0);
+    transition: 0.5s;
+}
+
+.body .subtitulo:hover{
+    text-shadow: 0 0 50px rgb(255, 216, 0);
+}
+
+.body:hover{
+    font-size: 20px;
+}
+
+.redirect-links {
+    padding-bottom: 40px;
+}
+
+.redirect-links a{
+    font-size: 135%;
+    padding-right: 10px;
+    text-decoration: none;
+    color:rgb(255, 247, 203);
+    text-shadow: 0 0 5px rgb(255, 216, 0);
+    transition: 0.5s;
+}
+
+.redirect-links a:hover{
+    color:rgb(255, 229, 88);
+    text-shadow: 0 0 20px rgb(255, 216, 0);
+    font-size: 30px;
+}
+
+.redirect-links ul{
+    list-style-type: none;
+}
+
+@media (max-width: 768px){
+    body{
+        background-image: url(../img/fondo6.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .head{
+        padding-left: 0;
+        height:85vh;
+    }
+
+    .head .title{
+        padding-top: 10px;
+        font-size: 25px;
+        color: rgb(19, 54, 54);
+        text-shadow: 0 0 15px rgb(0, 251, 255) ;
+    }
+    
+    .head .title:hover{
+        font-size: 30px;
+    }
+
+    .body .titulo-body{
+        font-size: 20px;
+        color: rgb(19, 54, 54);
+        text-shadow: 0 0 10px rgb(0, 251, 255) ;
+    }
+    
+    .body .subtitulo{
+        font-size: 20px;
+    }
+
+    .body .subtitulo:hover{
+        font-size: 25px;
+    }
+    
+    .body .titulo-body:hover{
+        font-size: 25px;
+    }
+    
+    .redirect-links {
+        padding-bottom: 40px;
+    }
+    
+    .redirect-links a{
+        font-size: 15px;
+        text-decoration: none;
+        color:rgb(255, 247, 203);
+        text-shadow: 0 0 5px rgb(255, 216, 0);
+    }
+    
+    .redirect-links a:hover{
+        color:rgb(255, 216, 0);
+        text-shadow: none;
+        font-size: 15px;
+    }
+}
